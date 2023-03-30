@@ -23,5 +23,18 @@ function calcularIMC() {
 	document.getElementById("resultado").textContent = "Tu IMC es: " + imc;
 }
 
+const contenido = document.querySelector("#contenido");
+
+fetch("../IMC/JS/archivos.json")
+  .then(response => response.json())
+  .then(data => {
+    contenido.innerHTML = `
+      <div class="box-1",>
+        <h2>${data.titulo}</h2>
+        <p id="descripcion">${data.descripcion}</p>
+      </div>
+    `;
+  });
+  
 
   
