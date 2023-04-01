@@ -1,8 +1,10 @@
 const contenedorHTML = document.getElementById("contenedor-json")
 
-fetch("./js/integrantes.json")
+fetch('./js/integrantes.json')
     .then(response => response.json())
-    .then(data => {
+    .then(data => console.log(data))
+    .catch(error => consele.error(error))
+    /*.then(data => {
         for(const persona of data){
             
             contenedorHTML.innerHTML+=`
@@ -14,4 +16,4 @@ fetch("./js/integrantes.json")
             `
         }
         
-    })
+    })*/
