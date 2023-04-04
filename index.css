@@ -143,6 +143,107 @@ main{
     padding: 6px 6px 6px 6px;
 }
 
+
+/*----------------------------CSS NOSOTROS--------------------------------*/
+#contenedor{
+    display: flex;
+    position: relative;
+
+}
+.cardbox{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    margin: 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+}
+.cardbox:hover .card{
+    transform: rotateY(180deg);
+}
+.card {
+    background: #222;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+.card-frente, .card-frontal {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 0.8em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+ }
+.card-frontal {
+    transform: rotateY( 180deg);
+}
+.card-frente, .card-frontal{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.cardBox:nth-child(2) .card {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+}
+@keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  @media screen and (max-width: 767px) {
+  
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+  
+    .card {
+      height: 285px;
+    }
+  
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+  
+    .cardBox {
+      width: 94.5%;
+      height: 290px;
+    }
+  
+  }
+
+
+
+/*-----------------------------Footer--------------------------------------*/
 .pie{
     display: flex;
     flex-direction: row;
@@ -184,9 +285,7 @@ h6{
     border-radius: 20px;
     margin-top: 50px;
 }
-/*
-CSS NOSOTROS
-*/
+
 
 /* CSS PROYECTOS*/
 h3 {
