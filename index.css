@@ -145,9 +145,10 @@ main{
 
 
 /*----------------------------CSS NOSOTROS--------------------------------*/
+
 #contenedor{
     display: flex;
-    position: relative;
+    
 
 }
 .cardbox{
