@@ -1,10 +1,12 @@
 const contenedorHTML = document.getElementById("contenedor-json")
 
+
+
+/*
+                   ------------- NICO O NEP ENCUENTREN EL ERROR --------------
 fetch('./js/integrantes.json')
     .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => consele.error(error))
-    /*.then(data => {
+    .then(data => {
         for(const persona of data){
             
             contenedorHTML.innerHTML+=`
@@ -15,5 +17,5 @@ fetch('./js/integrantes.json')
             </div>
             `
         }
-        
+    
     })*/
