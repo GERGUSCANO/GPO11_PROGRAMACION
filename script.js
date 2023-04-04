@@ -1,7 +1,7 @@
 /*------------------------------creamos un arrays con los integrantes-----------------------------------*/
 const integrantes = [
     {
-        "nombre": "GERMÁN GUSTAVO CANO",
+        "nombre": "Germán Gustavo Cano",
         "nacimiento": "15/10/1982",
         "lugar_nacimiento": "San Juan",
         "profesion": "Informatico",
