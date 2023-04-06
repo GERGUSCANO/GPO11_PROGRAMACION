@@ -1,15 +1,15 @@
 /*------------------------------creamos un arrays con los integrantes-----------------------------------*/
 const integrantes = [
     {
-        "nombre": "Germán Gustavo Cano",
+        "nombre": "Germán Cano",
         "nacimiento": "15/10/1982",
         "lugar_nacimiento": "San Juan",
         "profesion": "Informatico",
         "titulos": "Electrotecnia",
-        "url": "./img/german.jgp"
+        "url": "./img/german1.jpg"
     },
     { 
-        "nombre" : "Edgardo Augusto Blanco",
+        "nombre" : "Edgardo Blanco",
         "nacimiento" : "23/09/1980",
         "lugar_nacimiento" : "Buenos Aires",
         "profesion" : "Administrativo ",
@@ -23,7 +23,7 @@ const integrantes = [
         "lugar_nacimiento" : "Buenos Aires",
         "profesion" : "Comerciante",
         "titulos" : "Bachiller, QA Manual y Automation ",
-        "url" : "no llenar aca"
+        "url" : "./img/nico.jpg"
     },
 
     {
@@ -32,7 +32,7 @@ const integrantes = [
         "lugar_nacimiento" : "San Juan",
         "profesion" : " Asistente Técnico de Sistemas",
         "titulos" : "Programador Universitario",
-        "url" : "no llenar aca"
+        "url" : "./img/marce.jpg"
 
     },
     {
@@ -41,7 +41,7 @@ const integrantes = [
         "lugar_nacimiento" : "Salta",
         "profesion" : "Terapeuta Floral (flores de bach)",
         "titulos" : "Bachiller",
-        "url" : "no llenar aca"
+        "url" : "./img/mariela.jpg"
 
     }
 ]
@@ -49,13 +49,14 @@ const integrantes = [
 
 const contenedorHTML = document.getElementById("contenedor")
 
+
 for(const integrante of integrantes){
     contenedorHTML.innerHTML += `
     <div class= "cardbox">
         <div class= "card">
             <div class= "card-frente">
-                <h2>${integrante.nombre}</h2>
-                <img src= ${integrante.url}>
+                <h2 id="name">${integrante.nombre}</h2>
+                <img src=${integrante.url} id="foto">
                 
             </div>
             <div class = "card-frontal">

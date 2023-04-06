@@ -145,7 +145,12 @@ main{
 
 
 /*----------------------------CSS NOSOTROS--------------------------------*/
-
+#titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 1.5%;
+    color: #fffffe;
+}
 #contenedor{
     display: flex;
     
@@ -164,14 +169,16 @@ main{
     transform: rotateY(180deg);
 }
 .card {
-    background: #222;
+    background: #0f0e17;
     cursor: default;
-    height: 300px;
+    height: 250px;
     transform-style: preserve-3d;
     transition: transform 0.4s ease 0s;
     width: 100%;
     -webkit-animation: giro 1s 1;
     animation: giro 1s 1;
+    border-color: #ff8906;
+    border-style: solid;
   }
 .card-frente, .card-frontal {
     backface-visibility: hidden;
@@ -189,10 +196,18 @@ main{
 }
 .card-frente, .card-frontal{
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 15px;
+    align-items: center;
 }
 
+#name{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 1.2rem;
+    
 
+}
 .cardBox:nth-child(2) .card {
     -webkit-animation: giro 2.5s 1;
     animation: giro 2.5s 1;
@@ -214,7 +229,7 @@ main{
       transform: rotateY( 0deg);
     }
   }
-  @media screen and (max-width: 767px) {
+/*  @media screen and (max-width: 767px) {
   
     .cardBox {
       margin-left: 2.8%;
@@ -241,7 +256,20 @@ main{
     }
   
   }
+*/
+#foto{
+    margin-top: 60px;
+    width: 100px;
+    border-radius: 50px;
+}
 
+
+
+/*--------------------------------proyectos-------------------------------------- */
+.todosproyectos h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
 
 
 /*-----------------------------Footer--------------------------------------*/
