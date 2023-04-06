@@ -14,7 +14,7 @@ const integrantes = [
         "lugar_nacimiento" : "Buenos Aires",
         "profesion" : "Administrativo ",
         "titulos" : "Secundario - Perito Mercantil",
-        "url" : "./img/edgardo.jpg"
+        "url" : "./img/edgar1.jpg"
     },
 
     {
