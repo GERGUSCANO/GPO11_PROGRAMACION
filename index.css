@@ -204,8 +204,8 @@ main{
     margin: 0%;
     padding: 0%;
     text-align: center;
-    font-size: 1.2rem;
-    color: rgb(151, 245, 213);
+    font-size: 1.3rem;
+    color: #fffffe;
     font-family: 'Roboto', sans-serif;
 }
 .cardBox:nth-child(2) .card {
