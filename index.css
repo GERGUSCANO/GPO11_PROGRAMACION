@@ -205,8 +205,8 @@ main{
     padding: 0%;
     text-align: center;
     font-size: 1.2rem;
-    
-
+    color: rgb(151, 245, 213);
+    font-family: 'Roboto', sans-serif;
 }
 .cardBox:nth-child(2) .card {
     -webkit-animation: giro 2.5s 1;
