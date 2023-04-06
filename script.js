@@ -14,7 +14,7 @@ const integrantes = [
         "lugar_nacimiento" : "Buenos Aires",
         "profesion" : "Administrativo ",
         "titulos" : "Secundario - Perito Mercantil",
-        "url" : "https://photos.app.goo.gl/RV3Q8g7WvLCGvBBR7"
+        "url" : "./img/edgardo.jpg"
     },
 
     {
