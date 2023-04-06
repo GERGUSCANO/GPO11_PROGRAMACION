@@ -25,7 +25,7 @@ function calcularIMC() {
 
 const contenido = document.querySelector("#contenido");
 
-fetch("../IMC/JS/archivos.json")
+fetch("../../JS/archivos.json")
   .then(response => response.json())
   .then(data => {
     contenido.innerHTML = `
