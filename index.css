@@ -1,7 +1,13 @@
 body{
     background-color: #0f0e17;
     margin: 0%;
-
+}
+#watch{
+    color: rgb(16, 17, 17);
+    font-size: large;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 155px;
 }
 .titulo{
     color: #fffffe;
