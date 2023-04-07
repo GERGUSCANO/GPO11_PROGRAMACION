@@ -293,7 +293,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
-#s1 button{
+/*#s1 button{
     background-color: #ff8906;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
@@ -314,7 +314,7 @@ h2 {
     align-items: center;
     justify-content: center
 }
-
+*/
 .row_1{
     display: flex;
     flex-direction:row;
@@ -350,7 +350,7 @@ h3{
     text-align: center;
 
 }
-#s1 {
+/*#s1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -360,7 +360,7 @@ h3{
     margin: 3px 6px;
     width: 300px;
     height: 350px;
-}
+}*/
 #s2 {
     display: flex;
     flex-direction: column;
@@ -472,3 +472,97 @@ h6{
 
 /* CSS PROYECTOS*/
 
+#titulo-imc{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 1.5%;
+    color: #fffffe;
+}
+#contenedor-imc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 3px 6px;
+    width: 300px;
+    height: 350px;
+    
+}
+.cardbox-imc{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    margin: 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+}
+.cardbox-imc:hover .card-imc{
+    transform: rotateY(180deg);
+}
+.card-imc {
+    background: #0f0e17;
+    cursor: default;
+    height: 350px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+    border-color: #ff8906;
+    border-style: solid;
+  }
+.s1-frente, .s1-frontal {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: rgb(240, 238, 238);
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 0.8em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+ }
+.s1-frontal {
+    transform: rotateY( 180deg);
+}
+.s1-frente, .s1-frontal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    align-items: center;
+}
+
+#name{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fffffe;
+    font-family: 'Roboto', sans-serif;
+}
+.cardBox-imc:nth-child(2) .card-imc {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+}
+@keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+#img_calc{
+    width: 100%;
+}

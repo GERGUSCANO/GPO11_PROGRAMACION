@@ -65,21 +65,53 @@
         <br>
         <h2>PROYECTOS INICIALIZADOS</h2>
         <div class="row">
-            <section id="s1">
+            <div id="contenedor-imc">
+                <div class="cardbox-imc">
+                    <section class="card-imc">
+                        <div class="s1-frente">
+                            <h3>Calculadora IMC</h3>
+                            <img src="./img/imc1.jpg" alt="" id="img_calc">
+                        </div>
+                        <div class="s1-frontal">
+                            <h4>INGRESE LOS VALORES</h4>
+                            <form action="" class="formulario" , id="formulario">
+                                <label for="nombre" name="nombre" id="nombre">Ingrese su nombre</label><br>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo"><br>
+                                <label for="number_edad" name="number_edad" id="number_edad">Ingresa tu edad</label><br>
+                                <input type="number_edad" name="number_edad" id="number_edad" placeholder="Edad"><br>
+                                <label for="sexo">Selecciona tu sexo</label><br>
+                                <select name="sexo" id="sexo">
+                                    <option value="Masculino" id="option">Masculino</option>
+                                    <option value="Femenino" id="option">Femenino</option>
+                                    <option value="Otros" id="option">Otros</option>
+                                </select><br>
+                                <label for="peso">Peso en kg:</label><br>
+                                <input type="number" id="peso" name="peso" required><br>
+                                <label for="altura">Altura en cm:</label><br>
+                                <input type="number" id="altura" name="altura" required><br><br>
+                                <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+                            </form>
+                        <p id="resultado"></p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!--<section id="s1">
                 <h3 id="h3">Calculadora IMC - Indice de Masa Corporal </h3>
                 <img src="./img/imc1.jpg" alt="" id="imc_img">
+                <button class="imc-buttom" onclick="calcularIMC">click</button>
+                <div id="cardbox"></div>
                 <button><a href="./PROYECTOS/IMC/index.html">click</a></button>
-            </section>
+            </section>--->
             <section id="s2">
                 <h3 id="h3">Conversor de medidas</h3>
                 <img src="./img/medidas1.png" alt="" id="medidas_img">
-                <button class="imc-buttom"></button>
-                <!--<button><a href="./PROYECTOS/CONVERSOR/index.html">click</a></button>-->
+                          
             </section>
             <section id="s3">
                 <h3 id="h3">Calculadora de Area y Superficies </h3>
                 <img src="./img/geo.png" alt="" id="geo_img">
-                <button><a href="./PROYECTOS/CALCULADORA AREA/index.html">click</a></button>
+                
             </section>
         </div>
 
@@ -134,7 +166,7 @@
 </footer>
 
     <script src="./script.js"></script>
-    
+    <script src="imc.js"></script>
 </body>
     
 </html>
