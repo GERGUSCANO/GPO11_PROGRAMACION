@@ -1,6 +1,7 @@
 body{
     background-color: #0f0e17;
     margin: 0%;
+    
 
 }
 .titulo{
@@ -42,7 +43,7 @@ main{
 
 }
 #logo{
-    width: auto;
+    width: 100px;
     border-radius: 5px;
     margin-left: 3px;
     margin-right: 530px;
@@ -480,24 +481,22 @@ h6{
 }
 #contenedor-imc{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-color: #ff8906;
-    border-style: solid;
     margin: 3px 6px;
     width: 300px;
     height: 350px;
-    
+    position: static;
 }
 .cardbox-imc{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     font-size: 1.2rem;
     margin: 1%;
     perspective: 800px;
     transition: all 0.3s ease 0s;
-    width: 23.7%;
+    width: 101%;
 }
 .cardbox-imc:hover .card-imc{
     transform: rotateY(180deg);
@@ -514,7 +513,7 @@ h6{
     border-color: #ff8906;
     border-style: solid;
   }
-.s1-frente, .s1-frontal {
+.s1-frontal {
     backface-visibility: hidden;
     box-sizing: border-box;
     color: rgb(240, 238, 238);
@@ -525,6 +524,19 @@ h6{
     position: absolute;
     width: 100%;
  }
+ .s1-frente{
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: rgb(240, 238, 238);
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 0.8em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 33px;
+ }
+
 .s1-frontal {
     transform: rotateY( 180deg);
 }
@@ -563,6 +575,6 @@ h6{
       transform: rotateY( 0deg);
     }
   }
-#img_calc{
-    width: 100%;
+#img_calcimc{
+    width: 70%;
 }
