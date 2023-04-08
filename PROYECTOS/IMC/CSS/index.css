@@ -88,3 +88,16 @@ input::placeholder{
     font-family: 'Raleway', sans-serif;
     text-align: justify;
 }
+#barra {
+    background-color: #ddd;
+    height: 20px;
+    margin-top: 10px;
+  }
+  #barra .puntero {
+    background-color: #007bff;
+    height: 20px;
+    width: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
