@@ -1,4 +1,13 @@
-
+function actualizarBarra() {
+	var valor = document.getElementById("valor").value;
+	var barra = document.getElementById("barra");
+	var puntero = document.createElement("div");
+	puntero.classList.add("puntero");
+	puntero.style.left = valor + "%";
+	barra.innerHTML = "";
+	barra.appendChild(puntero);
+  }
+  
 function calcularIMC() {
 	
 	var peso = parseFloat(document.getElementById("peso").value);
