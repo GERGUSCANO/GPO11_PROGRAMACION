@@ -25,7 +25,7 @@ function actualizarBarra() {
     if (valor >= 18.5 && valor<=24.9) {
       puntero.style.backgroundColor = 'green';
       } else if (valor >= 25 && valor<=29.9) {
-      puntero.style.backgroundColor = 'yellow';
+      puntero.style.backgroundColor = 'rgb(131, 27, 114)';
       } else if (valor >= 30 && valor<=34.9) {
       puntero.style.backgroundColor = 'orange';
       }else if (valor >= 35 && valor<= 40) {
