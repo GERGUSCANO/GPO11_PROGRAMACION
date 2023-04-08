@@ -39,5 +39,5 @@ function calcularIMC() {
 	
 	imc = Math.round(imc * 100) / 100;
 
-	document.getElementById("resultado").textContent = "Tu IMC es: " + imc;
+	Swal.fire("Tu IMC es: " + imc);
 }
