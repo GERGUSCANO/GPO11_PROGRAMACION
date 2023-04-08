@@ -88,3 +88,28 @@ input::placeholder{
     font-family: 'Raleway', sans-serif;
     text-align: justify;
 }
+#barra {
+    background-color: #ebeae3;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+  }
+  #barra .puntero {
+    background-color: #007bff;
+    height: 40px;
+    width: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .cajavalores{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 5px;
+    height: 50px;
+    width: 30px;
+    flex-direction: column;
+
+  }
+   

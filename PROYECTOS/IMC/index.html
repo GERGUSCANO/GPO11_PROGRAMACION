@@ -28,7 +28,7 @@
             <h1>CALCULADORA DE IMC</h1>
             <h3>VEAMOS QUE SALE!!!</h3>
         </div>
-
+        
         
     </header>
     <main>
@@ -59,15 +59,32 @@
                     <input type="number" name="altura" id="altura" placeholder="Altura en metros">
                     <label for="peso" name="peso" id="peso">Ingrese su peso</label>
                     <input type="number" name="peso" id="peso" placeholder="Peso en Kg">
-
+                    <button type="button" onclick="calcularIMC()">Calcular IMC</button>
 
                 </form>
                 
-                
-
+                <p id="resultado"></p>
+                <script src="../IMC/JS/script.js"></script>
 
             </div>
+            
         </div>
+         <div>
+    <label for="valor">Ingresa aquí tu IMC:</label>
+   <input type="number" id="valor" name="valor" min="0" max="100" step="1" value="50">
+    <div id="barra"></div>
+    <script src="../IMC/JS/script.js"></script>
+  </div>
+ <div>
+<div class="cajaValores">
+    <br>
+        <label style="background-color: rgb(34, 90, 34);color: antiquewhite;">   PESO NORMAL  </label>
+        <label style="background-color: rgb(110, 49, 179); color: antiquewhite;">  SOBREPESO   </label>
+        <label style="background-color: rgb(247, 136, 10); color: antiquewhite;">  OBESO GRADO I   </label>
+        <label style="background-color: rgb(245, 48, 48); color: antiquewhite;">   OBESO GRADO II   </label>
+        <label style="background-color: rgb(78, 55, 55);color: antiquewhite;">   OBESO GRADO III    </label>
+</div>
+</div>
     </main>
     <script src="./JS/script.js"></script>
 </body>
