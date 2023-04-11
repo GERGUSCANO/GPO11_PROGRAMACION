@@ -13,7 +13,7 @@ body{
 .nav-bar{
     display: flex;
     flex-direction: row;
-    background-color:#f3be82;
+    background-color: #ff8906;
     height: 70px;
     
 }
@@ -49,11 +49,16 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: baseline;
-    background-color:#f7bf80;
+    background-color: #ff8b06cd;
     width: 80%;
     margin: auto;
     margin-bottom: 100px;
     
+}
+.container h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #000000;
 }
 .box{
     display: flex;
@@ -108,7 +113,7 @@ body{
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
- .izquierda a{
+.izquierda a{
     text-decoration: none;
     color: #0f0e17;
  }
@@ -121,6 +126,7 @@ body{
     
 
 }
+/*--------------------------------------------pie
 .pie{
     display: flex;
     flex-direction: row;
@@ -128,9 +134,7 @@ body{
     color: #b6b8cb;
     font-family: 'Roboto', sans-serif;
     font-size: .9rem;
-    
-
-    
+       
 }
 .pie a{
     text-decoration: none;
@@ -142,6 +146,72 @@ h5{
     font-family: 'Roboto', sans-serif;
     font-size: .9rem;
     color: #b6b8cb;
+}
+.container{
+    
+    border-color: #ff8906;
+    border-style: solid;
+    margin: 200px 6px 6px 6px;
+
+
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: .6rem;
+    color: #b6b8cb;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#logo3{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.lista-redes{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lista-redes li{
+    width: 3rem;
+    margin: 5%;
+}
+--------------------------------------------pie*/
+.lista-redes li{
+    width: 3rem;
+    margin: 5%;
+}
+.lista-redes{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #b6b8cb;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+}
+
+.pie a{
+    text-decoration: none;
+    color: #ff8906;
+    margin-left: 8px;
+    font-size: .9rem;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    color: #fffff2;
 }
 .container1{
     border-color: #ff8906;
@@ -163,13 +233,8 @@ h6{
     margin-top: 50px;
 }
 
-body {
-	background-color: #f0f0f0;
-	font-family: Arial, sans-serif;
-}
-
 form {
-	background-color: #fff;
+	background-color: #ff8906;
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
