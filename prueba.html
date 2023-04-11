@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--<div class="container" id="container">
+        <div class="box-2"  id="valores">
+            <h4>INGRESE LOS VALORES</h4>
+            <form action="" class="formulario" , id="formulario">
+                <label for="nombre" name="nombre" id="nombre">Ingrese su nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo">
+                <label for="number_edad" name="number_edad" id="number_edad">Ingresa tu edad</label>
+                <input type="number_edad" name="number_edad" id="number_edad" placeholder="Edad">
+                <label for="sexo">Selecciona tu sexo</label>
+                <select name="sexo" id="sexo">
+                    <option value="Masculino" id="option">Masculino</option>
+                    <option value="Femenino" id="option">Femenino</option>
+                    <option value="Otros" id="option">Otros</option>
+                </select>
+                <label for="peso">Peso en kg:</label>
+                <input type="number" id="peso" name="peso" required>
+                <label for="altura">Altura en cm:</label>
+                <input type="number" id="altura" name="altura" required><br>
+                <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+            </form>
+        <p id="resultado"></p>
+        </div>   
+    </div>
+    <div class= "cardbox">
+        <div class= "card">
+            <div class= "card-frente">
+                <h2 id="name">${integrante.nombre}</h2>
+                <img src=${integrante.url} id="foto">
+                
+            </div>
+            <div class = "card-frontal">
+                <h5>Lugar de nacimiento: ${integrante.lugar_nacimiento}</h5>
+                <h5>Profesión: ${integrante.profesion}</h5>
+                <h5>Titulos: ${integrante.titulos}</h5>
+            </div>
+        </div>    
+    </div>
+--------------------------->    
+<div id="contenedor-imc">
+    <div class="cardbox-imc">
+        <section class="card-imc">
+            <div class="s1-frente">
+                <h3>Calculadora IMC</h3>
+                <img src="./img/imc1.jpg" alt="" id="img_calc">
+            </div>
+            <div class="s1-frontal">
+                <h4>INGRESE LOS VALORES</h4>
+                <form action="" class="formulario" , id="formulario">
+                    <label for="nombre" name="nombre" id="nombre">Ingrese su nombre</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo"><br>
+                    <label for="number_edad" name="number_edad" id="number_edad">Ingresa tu edad</label><br>
+                    <input type="number_edad" name="number_edad" id="number_edad" placeholder="Edad"><br>
+                    <label for="sexo">Selecciona tu sexo</label><br>
+                    <select name="sexo" id="sexo">
+                        <option value="Masculino" id="option">Masculino</option>
+                        <option value="Femenino" id="option">Femenino</option>
+                        <option value="Otros" id="option">Otros</option>
+                    </select><br>
+                    <label for="peso">Peso en kg:</label><br>
+                    <input type="number" id="peso" name="peso" required><br>
+                    <label for="altura">Altura en cm:</label><br>
+                    <input type="number" id="altura" name="altura" required><br><br>
+                    <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+                </form>
+            <p id="resultado"></p>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="imc.js"></script>
+</body>
+</html>
