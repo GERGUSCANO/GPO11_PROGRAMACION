@@ -470,13 +470,27 @@ h6{
     color: #b6b8cb;
     text-align: center;
 }
+.redes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 #logo3{
     width: 150px;
     height: 150px;
     border-radius: 20px;
     margin-top: 50px;
 }
-
+.lista-redes{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lista-redes li{
+    width: 3rem;
+    margin: 5%;
+}
 
 /* CSS PROYECTOS*/
 
