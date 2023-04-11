@@ -7,17 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/contacto.css">
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>CONTACTANOS</title>
 </head>
 <body>
     <header>
         <div class="nav-bar">
             <img src="./img/logo2.png" alt="logo" a href="./index.html" id="logo"></a>
-            <a href="./index.html" id="nav">INICIO</a>
-            <a href="./servicios.html" id="nav">PROYECTOS</a>
-            <a href="./acercaDe.html" id="nav">ACERCA DE</a>
-            <!--<a href="./contacto.html" id="nav">CONTACTANOS</a>-->
+            <a href="index.html" id="nav"><b>Back</b></a>
+            
         </div>
         <h1 class="titulo">CONTACTANOS</h1>
     </header>
@@ -39,12 +39,34 @@
                 </section>
                 <section class="derecha">
                     <h3>CONTACTATE</h3>
-                    <form action="" id="formulario">
-                        <input type="text" name="nombreCompleto" id="nombreCompleto" placeholder="Ingresa tu Nombre" required>
-                        <input type="email" name="email" id="email" placeholder="Ingresa tu e-mail" required>
-                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu consulta" required></textarea>
-                        <input type="button" value="Enviar" id="enviar">
-                    </form>
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <title>Formulario de contacto</title>
+                        <link rel="stylesheet" type="text/css" href="style.css">
+                    </head>
+                    <body id="contacto">
+                        
+                        <form id="mensaje">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" id="nombre" required>
+                    
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" name="correo" id="correo" required>
+                    
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" name="asunto" id="asunto" required>
+                    
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+                    
+                            <button type="submit" id="enviar">Enviar</button>
+                        </form>
+                    
+                        <script src="script.js"></script>
+                    </body>
+                    </html>
+                    
                 </section>
 
             </div>
@@ -77,6 +99,7 @@
             </div>
             <h6>SE RESERVAN LOS DERECHOS DE AUTOR - PRODUCIDO POR AR-TECH</h6>
         </div>
+        <script src="contacto.js"></script>
     </footer>
 </body>
 </html>
