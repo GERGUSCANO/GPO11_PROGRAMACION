@@ -6,6 +6,9 @@ body{
 #reloj{
     color: rgb(45, 48, 48);
     margin-left: 45px;
+    margin-right: 10px;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
     }
     
 #watch{
@@ -202,6 +205,11 @@ main{
  }
 .card-frontal {
     transform: rotateY( 180deg);
+    
+}
+.card-frontal h5{
+    color: #b6b8cb;
+
 }
 .card-frente, .card-frontal{
     font-family: 'Roboto', sans-serif;
@@ -493,6 +501,14 @@ h6{
 .lista-redes li{
     width: 3rem;
     margin: 5%;
+}
+.info-data a{
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+.info-data li{
+    list-style:url("./logo/input_FILL0_wght400_GRAD0_opsz48.svg");
+    align-items: center;
 }
 
 /* CSS PROYECTOS*/
