@@ -502,13 +502,15 @@ h6{
     width: 3rem;
     margin: 5%;
 }
-.info-data a{
-    padding-top: 0%;
-    padding-bottom: 5%;
+.info-data{
+    align-items: center;
 }
 .info-data li{
-    list-style:url("./logo/input_FILL0_wght400_GRAD0_opsz48.svg");
+    list-style: none;
     align-items: center;
+    padding-bottom: 5px;
+    font-family: 'Roboto','sans-serif';
+    font-size: 1.6rem;
 }
 
 /* CSS PROYECTOS*/
