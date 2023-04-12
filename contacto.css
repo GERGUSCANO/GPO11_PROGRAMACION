@@ -83,7 +83,7 @@ body{
 }
 .derecha input::placeholder{
     font-family: 'Roboto', sans-serif;
-    color: #b6b8cb;
+    color: #0909097a;
 }
 .derecha textarea{
     width: 301px;
@@ -250,7 +250,6 @@ input, textarea {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 10px;
-	border-radius: 5px;
 	border: none;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
