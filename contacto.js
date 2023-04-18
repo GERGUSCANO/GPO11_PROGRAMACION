@@ -16,8 +16,6 @@ function enviarFormulario(evento) {
 		mensaje
 	};
 
-	// Aquí puedes agregar el código para enviar los datos a través de un servidor o un servicio de correo electrónico.
-
     Swal.fire('Gracias, a la brevedad responderemos.');
 	form.reset();
 }
