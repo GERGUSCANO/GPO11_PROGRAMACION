@@ -6,7 +6,7 @@ function relojActualizable() {
 		let mm = date.getMinutes();
 		let ss = date.getSeconds();
 
-		// Operadores avanzados
+	
 
 		hh = hh < 10 ? `0${hh}` : hh;
 		mm = mm < 10 ? `0${mm}` : mm;
